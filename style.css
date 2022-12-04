@@ -1,0 +1,407 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:#0a131e;
+}
+#img1{
+  marign-top:0px;
+  margin-left:20px;
+  margin-bottom:20px;
+}
+header{
+  background-color:#0a131e;
+  display:flex;
+
+}
+#h51{
+position:absolute; 
+  margin-top:40px;
+  margin-left:650px;
+  color:gray;
+ font-family: 'Courier New', monospace; 
+  font-size:15px;
+}
+#h52{
+position:absolute; 
+  margin-top:40px;
+  margin-left:800px;
+  color:gray;
+ font-family: 'Courier New', monospace; 
+  font-size:15px;
+}
+#h53{
+position:absolute; 
+  margin-top:40px;
+  margin-left:970px;
+  color:gray;
+ font-family: 'Courier New', monospace; 
+  font-size:15px;
+}
+#h54{
+position:absolute; 
+  margin-top:40px;
+  margin-left:1090px;
+  color:gray;
+ font-family: 'Courier New', monospace; 
+  font-size:15px;
+}
+#h55{
+position:absolute; 
+  margin-top:40px;
+  margin-left:1140px;
+  color:gray;
+ font-family: 'Courier New', monospace; 
+  font-size:15px;
+}
+#h56{
+position:absolute; 
+  margin-top:100px;
+  margin-left:340px;
+  color:white;
+ font-family: 'Courier New', monospace; 
+  font-size:18px;
+}
+#h57{
+position:absolute; 
+  margin-top:100px;
+  margin-left:610px;
+  color:white;
+ font-family: 'Courier New', monospace; 
+  font-size:18px;
+}
+#h58{
+position:absolute; 
+  margin-top:100px;
+  margin-left:720px;
+  color:white;
+ font-family: 'Courier New', monospace; 
+  font-size:18px;
+}
+#h59{
+position:absolute; 
+  margin-top:100px;
+  margin-left:950px;
+  color:white;
+ font-family: 'Courier New', monospace; 
+  font-size:18px;
+}
+#h60{
+position:absolute; 
+  margin-top:100px;
+  margin-left:1093px;
+  color:white;
+ font-family: 'Courier New', monospace; 
+  font-size:18px;
+}
+#h61{
+  font-size:50px;
+ position:absolute;
+  left:100px;
+  bottom:50px;
+  top:860px;
+  text-align:center;
+  color:white;
+   font-family: 'Comfortaa', monospace;
+}
+#h62{
+
+  color:white;
+  font-size:30px;
+ position:absolute;
+  left:900px;
+  bottom:50px;
+  top:860px;
+   text-align:center;
+  z-index:1000;
+   font-family: 'Comfortaa', monospace;
+
+}
+#id{
+  background-color:black;
+  opacity: 0.7;
+  width:360px;
+  height:500px;
+  position:absolute;
+   left:900px;
+  bottom:50px;
+  top:860px;
+  z-index:100;
+  
+} 
+
+#h11{
+  color:white;
+  position:absolute;
+  left:320px;
+  bottom:50px;
+  top:1460px;
+  text-align:center;
+font-family: 'Comfortaa', monospace;
+}
+
+
+#button1{
+   position:absolute;
+  left:400px;
+  bottom:50px;
+  top:2150px;
+   border-radius:6px;
+  font-size:20px;
+background-color:#929190;
+  border:3px solid #3a3933;
+  transition: ease-out 0.3;
+  outline:none;
+  z-index:1;
+  height:40px;
+  width:190px;
+}
+#button1:hover{
+  color:#e3e5e7;
+  cursor:pointer;
+}
+#button1:before{
+  transition: 0.5 all ease;
+  position:absolute;
+  top:0;
+  left:50%;
+  right:50%;
+  bottom:0;
+  opacity:0;
+  content:"";
+  background-color:#34332e;
+}
+#button1:hover:before{
+  transition:0.5 all ease;
+  left:0;
+  rightt:0;
+  opacity:1;
+  z-index:-1;
+}
+
+
+
+
+
+#button2{
+ 
+   position:absolute;
+  left:650px;
+  bottom:50px;
+  top:2150px;
+   border-radius:6px;
+  font-size:20px;
+  background-color:#929190;
+  border:3px solid #3a3933;
+  transition: ease-out 0.3;
+  outline:none;
+  z-index:1;
+  height:40px;
+  width:190px;
+}
+#button2:hover{
+  color:#e3e5e7;
+  cursor:pointer;
+}
+#button2:before{
+  transition: 0.5 all ease;
+  position:absolute;
+  top:0;
+  left:50%;
+  right:50%;
+  bottom:0;
+  opacity:0;
+  content:"";
+  background-color:#34332e;
+}
+#button2:hover:before{
+  transition:0.5 all ease;
+  left:0;
+  rightt:0;
+  opacity:1;
+  z-index:-1;
+}
+#gh{
+  background-color:white;
+  width:1263px;
+  height:700px;
+}
+
+
+#h12{
+  font-family: 'Comfortaa', monospace;
+  text-align:center;
+  background-color:white;
+  position:absolute;
+top:2400px;
+  left:400px;
+font-size:40px;
+
+}
+#h21{
+    font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2500px;
+  left:130px;
+  font-size:20px;
+}
+#h22{
+    font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2500px;
+  left:230px;
+  font-size:20px;
+}
+#h23{
+    font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2500px;
+  left:450px;
+  font-size:20px;
+}
+#h24{
+    font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2500px;
+  left:690px;
+  font-size:20px;
+}
+#h25{
+    font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2500px;
+  left:810px;
+  font-size:20px;
+}
+#h26{
+    font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2500px;
+  left:980px;
+  font-size:20px;
+}
+#h27{
+   
+   position:absolute;
+  top:2520px;
+  left:100px;
+
+}
+#im1{
+    position:absolute;
+  top:2620px;
+  left:100px; 
+}
+#h28{
+     font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2770px;
+  left:190px;
+}
+#h29{
+     font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2810px;
+  left:160px;
+  font-size:15px;
+  color:#6f676a
+}
+#img2{
+  position:absolute;
+  top:2850px;
+  left:155px;
+}
+#im3{
+    position:absolute;
+  top:2620px;
+  left:490px; 
+}
+#h30{
+     font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2770px;
+  left:580px;
+}
+#h31{
+     font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2810px;
+  left:540px;
+  font-size:15px;
+  color:#6f676a
+}
+#img4{
+  position:absolute;
+  top:2850px;
+  left:545px;
+}
+
+#im5{
+    position:absolute;
+  top:2620px;
+  left:870px; 
+}
+#h32{
+     font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2770px;
+  left:1000px;
+}
+#h33{
+     font-family: 'Comfortaa', monospace;
+   position:absolute;
+  top:2810px;
+  left:945px;
+  font-size:15px;
+  color:#6f676a
+}
+#img6{
+  position:absolute;
+  top:2850px;
+  left:950px;
+}
+#h34{
+  position:absolute; 
+top:3100px;
+left:120px;
+  color:white;
+ font-family: 'Comfortaa', monospace; 
+  font-size:30px;
+    z-index:100000;
+}
+#img10{
+  position:absolute; 
+top:3200px;
+left:20px;
+  color:white;
+ 
+  font-size:60px;
+}
+#img11{
+  position:absolute; 
+top:3200px;
+left:1200px;
+  color:white;
+ 
+  font-size:60px;
+}
+#h35{
+  position:absolute; 
+top:3200px;
+left:120px;
+  color:white;
+  font-family: 'Comfortaa', monospace; 
+  font-size:15px;
+    z-index:10000;
+}
+#div1{
+ width:1263px;
+  height:700px;
+    position:absolute; 
+top:2930px;
+left:7px;
+  z-index:100;
+  background-image:linear-gradient(black,white);
+  opacity:0.7;
+}
